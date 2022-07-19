@@ -8,7 +8,7 @@ Tout d'abord rendez-vous dans phphmyadmin et choisssisez la base de donnée où 
 
 Un fichier BDD.sql est disponible sur le repositeroty FSA, celui-ci contient un script à importer via phpmyadmin à l'aide du bouton importer.
 
-![image](https://user-images.githubusercontent.com/93580066/179716973-924d51ad-2715-47fd-89ad-408f10fea1de.png)
+![image](https://user-images.githubusercontent.com/93580066/179734007-9eed91b7-db64-4ff4-8a02-34a48e78de9e.png)
 
 Une fois cela fait les tables seront ajoutées à la BDD et celles déjà présentent, en raport avec wordpress (qui ont des préfixes wp_), seront mise à jour
 (il faudra également spécifier les id de chaques tables comme étant des clés primaires et auto-increment afin de pouvoir modifier les tables importées)
