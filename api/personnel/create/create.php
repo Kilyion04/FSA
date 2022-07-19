@@ -1,6 +1,6 @@
 <?php
 
-require 'C:/xampp/htdocs/config.php';
+require 'T:\cesi\A2\web\xamp\htdocs\config.php';
 
 
 $personnel_nom = $_POST["personnel_nom"];
@@ -24,8 +24,11 @@ if(!empty($personnel_nom))
         ':batiment' => $personnel_batiment,
         ':etage' => $personnel_etage,
         ':salle' => $personnel_salle,
-        ':commentaire' => $personnel_commentaire,
+        ':commentaire' => $personnel_commentaire
     ));
 }
+
+header("location: /wordpress/personnel/");
+
 $dbo = null;
 ?>
