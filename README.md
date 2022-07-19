@@ -3,6 +3,7 @@
 Partie 1: Importation de la BDD
 
 
+
 Tout d'abord rendez-vous dans phphmyadmin et choisssisez la base de donnée où se trouve votre site wordpress.
 
 Un fichier BDD.sql est disponible sur le repositeroty FSA, celui-ci contient un script à importer via phpmyadmin à l'aide du bouton importer.
@@ -10,6 +11,8 @@ Un fichier BDD.sql est disponible sur le repositeroty FSA, celui-ci contient un 
 ![image](https://user-images.githubusercontent.com/93580066/179716973-924d51ad-2715-47fd-89ad-408f10fea1de.png)
 
 Une fois cela fait les tables seront ajoutées à la BDD et celles déjà présentent, en raport avec wordpress (qui ont des préfixes wp_), seront mise à jour
+(il faudra également spécifier les id de chaques tables comme étant des clés primaires et auto-increment afin de pouvoir modifier les tables importées)
+
 
 
 Partie 2 : Importation des fichiers de gestion
@@ -25,7 +28,9 @@ au même niveau que votre dossier wordpress
 
 
 
+
 Partie 3 : importation des pages wordpress
+
 
 Pour l'importation des pages wordpress un fichier pages.xml est disponible, celui-ci, en passant par le tableau de bord wordpress permet d'importer les pages d'un site vers un autre.
 
@@ -33,9 +38,11 @@ Pour l'importation des pages wordpress un fichier pages.xml est disponible, celu
 
 
 
+
 Partie 4 : Importation du plugin de création
 
-Disponible dans FSA, le plugin kilyion.php permet à votre site de récupérrez les entrées des formulaires wordpress afin de les envoyer vers les différents fichiers de création de personnel, de matériels ou de logiciels.
+
+Disponible dans FSA, le plugin kilyion.php permet à votre site de récupérez les entrées des formulaires wordpress afin de les envoyer vers les différents fichiers de création de personnel, de matériels ou de logiciels.
 
 ![image](https://user-images.githubusercontent.com/93580066/179722549-493d2cfc-2627-47eb-ae2d-9797344c33cd.png)
 
