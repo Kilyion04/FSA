@@ -66,3 +66,5 @@ Notes :
   Mais également le thème elementor
   
 Pour résoudre ce problème je suis actuellement en train d'écrrire à la main les différents formulaire en HTML, ainsi ils seront disponibles peu importe le thème utilisé
+
+Je mettrai à jour au fur et à mesure les différents fichiers de création et également les fichiers d'affichage afin d'ajouter des fonctionnalités
