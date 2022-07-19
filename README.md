@@ -4,18 +4,21 @@ Partie 1: Importation de la BDD
 
 
 
-Tout d'abord rendez-vous dans phphmyadmin et choisssisez la base de donnée où se trouve votre site wordpress.
+Tout d'abord rendez-vous dans phphmyadmin et créez/choisissez la base de donnée où se trouve votre site wordpress.
 
 Un fichier BDD.sql est disponible sur le repositeroty FSA, celui-ci contient un script à importer via phpmyadmin à l'aide du bouton importer.
 
 ![image](https://user-images.githubusercontent.com/93580066/179734007-9eed91b7-db64-4ff4-8a02-34a48e78de9e.png)
 
-Une fois cela fait les tables seront ajoutées à la BDD et celles déjà présentent, en raport avec wordpress (qui ont des préfixes wp_), seront mise à jour
-(il faudra également spécifier les id de chaques tables comme étant des clés primaires et auto-increment afin de pouvoir modifier les tables importées)
+Une fois cela fait les tables seront ajoutées à la BDD et celles déjà présentent, en raport avec wordpress (qui ont des préfixes wp_), seront mise à jour si nous sommes dans le cas d'un installation de wordpress.
+
+Si ce dernier est déjà installé alors il faudra supprimer les parties du script sql qui crée ces tables en wp_ pour éviter des messages d'erreurs dûes à des doublons.
+
+Il faudra également spécifier les id de chaques tables comme étant des clés primaires et auto-increment afin de pouvoir modifier les tables importées
 
 ![image](https://user-images.githubusercontent.com/93580066/179734502-7f71fe4a-a533-4a43-b2c9-d75d1fe6a1f5.png)
 
-Ici on ne peut pas faire de modifications card il y a des doublons pourr l'id (ne devraient pas etre le cas). Si cela arrivent il suffit de vider la table, de remplir avec les donnnées necessaire puis de modifier la structure de la table
+Ici on ne peut pas faire de modifications car il y a des doublons pourr l'id (ne devraient pas etre le cas). Si cela arrivent il suffit de vider la table, de remplir avec les donnnées necessaire puis de modifier la structure de la table
 
 ![image](https://user-images.githubusercontent.com/93580066/179736315-1debc218-7e34-4fdf-b196-c459b7202313.png)
 
@@ -62,4 +65,4 @@ Notes :
   Pour modifier ou ajouter une page il vous faudra les plugins elementor et elementor pro (disponible gratuitement sur internet)
   Mais également le thème elementor
   
-Pour résoudre ce problème je suis sactuellement en train d'écrrire à la main les différents formulaire en HTML ainsi ils seront disponibles peu importe le thème utilisé
+Pour résoudre ce problème je suis actuellement en train d'écrrire à la main les différents formulaire en HTML, ainsi ils seront disponibles peu importe le thème utilisé
