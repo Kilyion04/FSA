@@ -29,9 +29,8 @@ Partie 2 : Importation des fichiers de gestion
 
 
 Un dossier nommé API est présent dans le repository, il vous suffit de le télécharger et de l'ajouter au même niveau que votre dossier wordpress.
-ex : fsa/site/api     fsa/site/wordpress
 
-Un fichier config.php est également dans le repository, il va permettre à l'ensemble des fichiers de converser avec la base de données, il faut également le mettre
+Un fichier config.php est également dans le repository, il va permettre à l'ensemble des fichiers de se connecter à la base de données, il faut également le mettre
 au même niveau que votre dossier wordpress
 
 ![image](https://user-images.githubusercontent.com/93580066/179718414-4263dcb5-a4af-447a-897a-9562829eb4e2.png)
