@@ -25,7 +25,7 @@ au même niveau que votre dossier wordpress
 
 
 
-Partie 3 importation des pages wordpress
+Partie 3 : importation des pages wordpress
 
 Pour l'importation des pages wordpress un fichier pages.xml est disponible, celui-ci, en passant par le tableau de bord wordpress permet d'importer les pages d'un site vers un autre.
 
@@ -42,7 +42,7 @@ Disponible dans FSA, le plugin kilyion.php permet à votre site de récupérrez 
 
 
 
-Note: 
+Notes : 
 
 - Modification/Ajout de page
 
