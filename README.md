@@ -13,7 +13,13 @@ Un fichier BDD.sql est disponible sur le repositeroty FSA, celui-ci contient un 
 Une fois cela fait les tables seront ajoutées à la BDD et celles déjà présentent, en raport avec wordpress (qui ont des préfixes wp_), seront mise à jour
 (il faudra également spécifier les id de chaques tables comme étant des clés primaires et auto-increment afin de pouvoir modifier les tables importées)
 
+![image](https://user-images.githubusercontent.com/93580066/179734502-7f71fe4a-a533-4a43-b2c9-d75d1fe6a1f5.png)
 
+Ici on ne peut pas faire de modifications card il y a des doublons pourr l'id (ne devraient pas etre le cas). Si cela arrivent il suffit de vider la table, de remplir avec les donnnées necessaire puis de modifier la structure de la table
+
+![image](https://user-images.githubusercontent.com/93580066/179736315-1debc218-7e34-4fdf-b196-c459b7202313.png)
+
+![image](https://user-images.githubusercontent.com/93580066/179736660-826ce20d-35f7-41c4-98a5-149dc311cf5e.png)
 
 Partie 2 : Importation des fichiers de gestion
 
