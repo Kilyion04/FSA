@@ -10,9 +10,10 @@ Un fichier BDD.sql est disponible sur le repositeroty FSA, celui-ci contient un 
 
 ![image](https://user-images.githubusercontent.com/93580066/179734007-9eed91b7-db64-4ff4-8a02-34a48e78de9e.png)
 
-Une fois cela fait les tables seront ajoutées à la BDD et celles déjà présentent, en raport avec wordpress (qui ont des préfixes wp_), seront mise à jour si nous sommes dans le cas d'un installation de wordpress.
+Une fois cela fait les tables seront ajoutées à la BDD, notamment celles en raport avec wordpress (qui ont des préfixes wp_), seront ajoutées à la BDD si nous sommes dans le cas d'un installation de wordpress.
 
 Si ce dernier est déjà installé alors il faudra supprimer les parties du script sql qui crée ces tables en wp_ pour éviter des messages d'erreurs dûes à des doublons.
+(enlever les CREATE table `wp_...` et laisser les ALTER table `wp_...` )
 
 Il faudra également spécifier les id de chaques tables comme étant des clés primaires et auto-increment afin de pouvoir modifier les tables importées
 
