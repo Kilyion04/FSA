@@ -45,6 +45,7 @@ Disponible dans FSA, le plugin kilyion.php permet à votre site de récupérrez 
 Note: 
 
 - Modification/Ajout de page
+
   Pour modifier ou ajouter une page il vous faudra les plugins elementor et elementor pro (disponible gratuitement sur internet)
   Mais également le thème elementor
   
